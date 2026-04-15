@@ -1,11 +1,3 @@
-AWSTemplateFormatVersion: "2010-09-09"
-
-Resources:
-  MyInstance:
-    Type: AWS::EC2::Instance
-    Properties:
-      InstanceType: t3.micro
-      ImageId: ami-0ec10929233384c7f
-      Tags:
-        - Key: Name
-          Value: MyFirstEC2Instance
+template-file-path: nginx.yaml
+parameters: {}
+tags: {}
